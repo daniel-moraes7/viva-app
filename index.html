@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d6efd" />
+  <link rel="icon" href="/img/icon-192.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon-192.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Cgviva">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <title>Vigilância de Violência e Acidentes</title>
+</head>
+<body>
+  <!-- Barra SESPA -->
+  <div style="background:#01264b; height: 60px; padding:0; display:flex; align-items:center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <!-- Logo lado esquerdo -->
+    <div style="padding-left: 40px; display:flex; align-items:center; flex: 1;">
+      <img src="/img/Logo Topo Sespa.png" alt="SESPA" style="height: 40px; width: auto;" 
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+      <div style="display: none; color: white; font-size: 16px; font-weight: bold;">
+        SECRETARIA DE SAÚDE PÚBLICA
+      </div>
+    </div>
+    
+    <!-- Menu lado direito -->
+    <div style="padding-right: 40px; display:flex; align-items:center;">
+      <nav>
+        <ul style="list-style:none; margin:0; padding:0; display:flex; align-items:center; height: 60px;">
+          <li style="height: 100%;">
+            <a href="#" style="color: white; text-decoration: none; font-size: 14px; padding: 0 20px; display: flex; align-items:center; height: 100%; transition: background-color 0.3s ease;" 
+               onmouseover="this.style.backgroundColor='rgba(255,255,255,0.1)'" 
+               onmouseout="this.style.backgroundColor='transparent'">
+              Portal SESPA
+            </a>
+          </li>
+          <li style="height: 100%; border-left: 1px solid rgba(255,255,255,0.2);">
+            <a href="#" style="color: white; text-decoration: none; font-size: 14px; padding: 0 20px; display: flex; align-items:center; height: 100%; transition: background-color 0.3s ease;" 
+               onmouseover="this.style.backgroundColor='rgba(255,255,255,0.1)'" 
+               onmouseout="this.style.backgroundColor='transparent'">
+              Saúde Pública
+            </a>
+          </li>
+          <li style="height: 100%; border-left: 1px solid rgba(255,255,255,0.2);">
+            <a href="#" style="color: white; text-decoration: none; font-size: 14px; padding: 0 20px; display: flex; align-items:center; height: 100%; transition: background-color 0.3s ease;" 
+               onmouseover="this.style.backgroundColor='rgba(255,255,255,0.1)'" 
+               onmouseout="this.style.backgroundColor='transparent'">
+              Vigilância
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
+  <div id="root"></div>
+  
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

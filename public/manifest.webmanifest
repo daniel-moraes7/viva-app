@@ -1,0 +1,21 @@
+{
+  "name": "Vigilância de Violência e Acidentes",
+  "short_name": "Cgviva",
+  "description": "Sistema de Vigilância de Violência e Acidentes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#01264b",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
